@@ -1,3 +1,20 @@
+# In short
+1. Create firebase project
+2. Add firebase to Android app (google-services.json)
+3. Enable firebase realtime database
+4. Turn off firebase realtime database security rule, see code below:
+    ```
+    {
+      "rules": {
+        ".read": true,
+        ".write": true
+      }
+    }
+    ```
+4. Copy the url of database, put in that code reference.
+
+------------ end - modified by tfkproject ------------
+
 # Let's Chat
 
 A personalised android :100: chat application with your full control over it. :smile:
